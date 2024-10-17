@@ -243,6 +243,9 @@ span{
     .hero h3{
         margin-left: 0px;
     }
+    .detel{
+        margin: 55px 50px 30px;
+    }
     .detel h1{
         font-size: 17px;
     }
@@ -272,6 +275,15 @@ span{
         display: inline-block;
         margin: 3px 7px;
     
+    }
+
+}
+@media (max-width: 320px) {
+    .hero h3{
+        margin-top: 5px;
+    }
+    nav ul{
+        width: 250px;
     }
 }
 
